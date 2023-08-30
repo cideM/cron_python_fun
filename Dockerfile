@@ -24,7 +24,7 @@ RUN adduser \
     --uid "${UID}" \
     appuser
 
-RUN apk add flock supercronic
+RUN apk add supercronic
 
 # Download dependencies as a separate step to take advantage of Docker's caching.
 # Leverage a cache mount to /root/.cache/pip to speed up subsequent builds.
