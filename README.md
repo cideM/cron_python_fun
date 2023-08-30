@@ -20,3 +20,7 @@ INFO[2023-08-30T16:46:32Z] exiting
 - To change how long the Python process runs, adjust `job.py`
 - To change how long the Python process is allowed to run, change the `timeout 2` in `./crontab`
 - To change the schedule, change the crontab values in `./crontab`; since this is using [supercronic](https://github.com/aptible/supercronic) you have a few more scheduling options such as seconds (which cron doesn't support)
+
+## Resources
+
+- https://fly.io/docs/app-guides/supercronic/
